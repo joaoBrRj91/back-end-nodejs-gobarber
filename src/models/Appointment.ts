@@ -7,7 +7,8 @@ class Appointment {
 
 	date: Date;
 
-	constructor(provider: string, date: Date) {
+	// Uma forma de tipar o parametro do construtor omitindo uma propriedade da estrutura atual
+	constructor({ provider, date }: Omit<Appointment, 'id'>) {
 		this.id = uuid();
 		this.provider = provider;
 		this.date = date;
