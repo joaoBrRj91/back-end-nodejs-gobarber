@@ -18,9 +18,7 @@ describe('CreateAppointment', () => {
 		// expect(appointment.id).toBeTruthy();
 		expect(appointment.provider_id).toBe('12');
 	});
-});
 
-describe('CreateAppointment', () => {
 	it('should not be able to create a two appointments on the same time', async () => {
 		const fakeAppointmentRepository = new FakeAppointmentRepository();
 		const createAppointment = new CreateAppointmentService(
