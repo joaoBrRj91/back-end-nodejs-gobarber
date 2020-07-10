@@ -40,7 +40,7 @@ class UpdateUserAvatarService {
 
 		await this.userRepository.save(user);
 
-		delete user.password;
+		// delete user.password;
 
 		return user;
 	}
