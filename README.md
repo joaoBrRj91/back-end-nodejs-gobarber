@@ -18,6 +18,7 @@
 
 - O link enviado por email, para resetar a senha; deve expirar em 2h;
 - O usuário precisa confirmar a nova senha ao resetar sua senha;
+- Deve ser gerado, automaticamente, um token de reset de senha contendo o id do usuário e o token.
 
 
 # Atualização do perfil
