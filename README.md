@@ -1,3 +1,5 @@
+## Documentação do projeto - GoBarber - Haircuts Appointments
+
 # Recuperação de senha
 
 **RF**
