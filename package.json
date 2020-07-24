@@ -10,6 +10,9 @@
     "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
     "test": "jest"
   },
+  "jest": {
+	"testEnvironment": "node"
+  },
   "resolutions": {
     "is-promise": "2.1.0",
     "run-async/is-promise": "2.1.0",
