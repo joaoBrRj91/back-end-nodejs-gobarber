@@ -16,6 +16,7 @@ export default class AppointmentController {
 
 		const appointment = await createAppointment.Execute({
 			provider_id,
+			user_id: request.user.id,
 			date: parsedDate,
 		});
 
