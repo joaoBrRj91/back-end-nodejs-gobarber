@@ -17,13 +17,13 @@ describe('ListProviderAppointmentsService', () => {
 		const appointment1 = await fakeAppointmentsRepository.create({
 			provider_id: 'provider_id',
 			user_id: 'user_id',
-			date: new Date(2020, 5, 20, 8, 0, 0),
+			date: new Date(2020, 4, 20, 8, 0, 0),
 		});
 
 		const appointment2 = await fakeAppointmentsRepository.create({
 			provider_id: 'provider_id',
 			user_id: 'user_id',
-			date: new Date(2020, 5, 20, 8, 0, 0),
+			date: new Date(2020, 4, 20, 8, 0, 0),
 		});
 
 		const appointments = await listProviderAppointments.execute({
