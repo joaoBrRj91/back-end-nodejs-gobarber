@@ -1,5 +1,5 @@
 interface IMailConfig {
-	driver: 'ethereal' | 'amazon-ses' | 'gmail';
+	driver: 'ethereal' | 'gmail';
 	default: {
 		from: {
 			email: string;
